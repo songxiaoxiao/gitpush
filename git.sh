@@ -5,7 +5,8 @@
 #!/bin/bash
 
 #根目录
-path=/Users/winter/work/code/exchange;
+
+path=`pwd`;
 echo "请输入commit 注释！";
 if [ -n "$1" ]; then
         echo "包含第一个参数";
